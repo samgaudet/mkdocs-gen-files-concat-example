@@ -1,0 +1,6 @@
+# Bar bug fix (`1.1.1`)
+
+Okay, it turns out _foo_ did _not_ support _bar_...
+Looks like our API developers were too busy **at the** _bar_...
+
+With this release, _foo_ now **actually** supports _bar_.

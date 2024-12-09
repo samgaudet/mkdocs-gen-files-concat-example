@@ -1,0 +1,15 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Release Notes: release-notes.md
+plugins:
+  - gen-files:
+      # these are the scripts that gen-files will execute at build time
+      # https://oprypin.github.io/mkdocs-gen-files/index.html#usage
+      scripts:
+        - scripts/concatenate_release_notes.py
+# this enables live reloading when you edit the script
+# https://www.mkdocs.org/user-guide/configuration/#watch
+watch:
+  - scripts
+  - release_notes
